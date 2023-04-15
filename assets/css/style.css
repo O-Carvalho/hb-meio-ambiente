@@ -401,6 +401,10 @@ body.menu-expanded button path {
     margin-bottom: 6rem;
 }
 
+#about .col-b img {
+    border-radius: 1rem;
+}
+
 /* ====================== CONTACT ==================== */
 #contact {
     text-align: left;
@@ -422,6 +426,10 @@ body.menu-expanded button path {
     display: flex;
     align-items: center;
     gap: 0.8rem;
+}
+
+#contact .col-b img {
+    border-radius: 1rem;
 }
 
 /* ======================= FOOTER ==================== */
