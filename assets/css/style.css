@@ -173,7 +173,7 @@ nav .wrapper {
     margin-top: 2rem;
 }
 
-nav.scroll {
+nav .scroll {
     background-color: var(--primary-color);
 }
 
@@ -388,12 +388,13 @@ body.menu-expanded button path {
 
 #services .card:hover {
     scale: 1.1;
+    transition: 0.8s;
   }
 
 #services .cards:has(.card:hover) .card:not(:hover) {
-    scale: 0.93;
+    scale: 0.95;
     opacity: 0.7;
-    transition: 1.3s;
+    transition: 0.8s;
 
   }
 
@@ -416,8 +417,39 @@ body.menu-expanded button path {
     border-radius: 1rem;
 }
 
+/* ==================== PRODUCTS ==================== */
+#products header h2 {
+    margin-bottom: 6rem;
+}
+
+#products .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+#products .card {
+    background-color: #FFFFFF;
+
+    padding: 2.4rem;
+    border: 1px solid var(--brand-light-color);
+    border-radius: 0.6rem;
+
+    text-align: left;
+}
+
+#products .card h3 {
+    margin-block: 1.6rem;
+}
+
+#products .card:hover {
+    scale: 1.05;
+    transition: 0.8s;
+  }
+
 /* ====================== CONTACT ==================== */
 #contact {
+    background-color: var(--brand-beige-color);
     text-align: left;
 }
 
